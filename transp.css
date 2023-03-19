@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#1abc9c, #1abc9c), url('HouseImg.jpeg');
+  background-size: 100% 30%, 100% 100%;
+  background-position: bottom, center;
+  background-repeat: no-repeat, no-repeat;
+}
+
+#icon {
+  float: left;
+  width: 30%;
+  height: 30%;
+  backdrop-filter: blur(15px);
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  /* margin-left: 10%; */
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  flex-basis: 50%;
+  color : white;
+  /* margin-top : 200px; */
+  margin-width : 50px;
+}
+
+.right {
+  flex-basis: 50%;
+}
+
+.form {
+  background: rgba(255, 255, 255, 0.2);
+  width: 50%;
+  height: 310px;
+  margin-top: 40%;
+  margin: auto;
+  padding: 30px 20px;
+  -webkit-columns: white;
+  -moz-columns: white;
+  columns: white;
+}
+
+input[type='text'] {
+  padding: 10px;
+  border: none;
+  margin: 10px 20px;
+  width: 70%
+}
+
+input[type='checkbox'] {
+  color: white
+  padding: 10px;
+  border: none;
+  margin: 10px 20px;
+  /* width : 70% */
+
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  width: 50%;
+  margin: 10px 20px;
+  background: black;
+  color: white;
+}
+
+form a{
+				text-decoration: none;
+				color: black;
+				margin:10px 20px;
+			}
+
+.counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  margin-top: 10%;
+  margin-left: 10%;
+  padding-top: 5px;
+}
+
+.counter h1 {
+  color: black;
+  font-size : 50px;
+}
+
+.left h1{
+  text-align : left;
+  font-size : 30px;
+  latter-spacing : 5px;
+}
+.counter p {
+  font-weight: bold;
+}
+.name h1{
+  text-align: left;
+  margin-left: 10%;
+  font-size: 30px;
+}
+.name h2{
+  text-align: left;
+  /* margin-left: 10%; */
+}
+.container h1{
+  text-align: left;
+  margin-left: 10%;
+  font-size: 30px;
+  margin-top: 10%;
+}
