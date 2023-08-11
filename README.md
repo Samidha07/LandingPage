@@ -1,5 +1,4 @@
-# TXON_01
-01- Create a Landing Page
+# 01- Create a Landing Page
 
 In this task, you will create a landing web
 page using basic HTML, And CSS. This is a
